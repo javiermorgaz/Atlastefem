@@ -1,0 +1,6 @@
+framework module Pods_AtlastefemTests {
+  umbrella header "Pods-AtlastefemTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
