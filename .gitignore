@@ -90,3 +90,5 @@ fastlane/test_output
 iOSInjectionProject/
 
 # Configuration API File
+
+Atlastefem/Application/Resources/Config.xcconfig
