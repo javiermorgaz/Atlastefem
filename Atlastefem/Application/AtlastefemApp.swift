@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import Combine
 
 @main
 struct AtlastefemApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(viewModel: HomeViewModel())
         }
     }
 }

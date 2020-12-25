@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  Atlastefem
+//
+//  Created by Jmorgaz on 25/12/20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_KEY = 0000
+API_SECRET = 0000

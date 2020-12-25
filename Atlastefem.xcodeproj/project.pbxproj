@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1E49867B2584A86D0071E00E /* AtlastefemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E49867A2584A86D0071E00E /* AtlastefemApp.swift */; };
-		1E49867D2584A86D0071E00E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E49867C2584A86D0071E00E /* ContentView.swift */; };
+		1E49867D2584A86D0071E00E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E49867C2584A86D0071E00E /* HomeView.swift */; };
 		1E49867F2584A86F0071E00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E49867E2584A86F0071E00E /* Assets.xcassets */; };
 		1E4986822584A86F0071E00E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4986812584A86F0071E00E /* Preview Assets.xcassets */; };
 		1E49868D2584A86F0071E00E /* AtlastefemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E49868C2584A86F0071E00E /* AtlastefemTests.swift */; };
 		1E4986982584A8700071E00E /* AtlastefemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4986972584A8700071E00E /* AtlastefemUITests.swift */; };
+		1EF968FE25961932000D7BC5 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF968FD25961932000D7BC5 /* RestClient.swift */; };
+		1EF9690325961986000D7BC5 /* AtlastefemAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9690225961986000D7BC5 /* AtlastefemAPI.swift */; };
+		1EF9690825961F89000D7BC5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9690725961F89000D7BC5 /* Constants.swift */; };
+		1EF9690D2596547E000D7BC5 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9690C2596547E000D7BC5 /* HomeViewViewModel.swift */; };
+		1EF9691625967862000D7BC5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9691525967862000D7BC5 /* Session.swift */; };
 		33A6B47799443E7E8E1F235A /* Pods_Atlastefem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B319C18111CC16B10DD8AA1C /* Pods_Atlastefem.framework */; };
 		AFF948C2AA6AB0D3030657F6 /* Pods_Atlastefem_AtlastefemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0D7CC06E4E2DCE8B85C749 /* Pods_Atlastefem_AtlastefemUITests.framework */; };
 		E9348A90B56A0DF40ED1F78B /* Pods_AtlastefemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C6EE48A22CF98AD3766BA1 /* Pods_AtlastefemTests.framework */; };
@@ -40,7 +45,7 @@
 		149A48D80E8546A5A38A42E8 /* Pods-Atlastefem-AtlastefemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlastefem-AtlastefemUITests.debug.xcconfig"; path = "Target Support Files/Pods-Atlastefem-AtlastefemUITests/Pods-Atlastefem-AtlastefemUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E4986772584A86D0071E00E /* Atlastefem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atlastefem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E49867A2584A86D0071E00E /* AtlastefemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlastefemApp.swift; sourceTree = "<group>"; };
-		1E49867C2584A86D0071E00E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E49867C2584A86D0071E00E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1E49867E2584A86F0071E00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E4986812584A86F0071E00E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E4986832584A86F0071E00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +55,12 @@
 		1E4986932584A8700071E00E /* AtlastefemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlastefemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4986972584A8700071E00E /* AtlastefemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlastefemUITests.swift; sourceTree = "<group>"; };
 		1E4986992584A8700071E00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF968FD25961932000D7BC5 /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		1EF9690225961986000D7BC5 /* AtlastefemAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlastefemAPI.swift; sourceTree = "<group>"; };
+		1EF9690725961F89000D7BC5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1EF9690C2596547E000D7BC5 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		1EF9691525967862000D7BC5 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		1EF9691D25967EB7000D7BC5 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		321ACD4CD165EE129ED236FD /* Pods-Atlastefem-AtlastefemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlastefem-AtlastefemUITests.release.xcconfig"; path = "Target Support Files/Pods-Atlastefem-AtlastefemUITests/Pods-Atlastefem-AtlastefemUITests.release.xcconfig"; sourceTree = "<group>"; };
 		53C6EE48A22CF98AD3766BA1 /* Pods_AtlastefemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtlastefemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D7C10469C57BE5E6E4E6B0 /* Pods-AtlastefemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtlastefemTests.release.xcconfig"; path = "Target Support Files/Pods-AtlastefemTests/Pods-AtlastefemTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,10 +133,10 @@
 		1E4986792584A86D0071E00E /* Atlastefem */ = {
 			isa = PBXGroup;
 			children = (
-				1E49867A2584A86D0071E00E /* AtlastefemApp.swift */,
-				1E49867C2584A86D0071E00E /* ContentView.swift */,
-				1E49867E2584A86F0071E00E /* Assets.xcassets */,
-				1E4986832584A86F0071E00E /* Info.plist */,
+				1EF968FC2596190C000D7BC5 /* View */,
+				1EF968FB259618E3000D7BC5 /* Domain */,
+				1EF968F8259617C5000D7BC5 /* Data */,
+				1E49870C2584BFD90071E00E /* Application */,
 				1E4986802584A86F0071E00E /* Preview Content */,
 			);
 			path = Atlastefem;
@@ -155,6 +166,84 @@
 				1E4986992584A8700071E00E /* Info.plist */,
 			);
 			path = AtlastefemUITests;
+			sourceTree = "<group>";
+		};
+		1E49870C2584BFD90071E00E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1E49870D2584BFF10071E00E /* Resources */,
+				1E49867A2584A86D0071E00E /* AtlastefemApp.swift */,
+				1EF9690725961F89000D7BC5 /* Constants.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1E49870D2584BFF10071E00E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E49867E2584A86F0071E00E /* Assets.xcassets */,
+				1EF9691D25967EB7000D7BC5 /* Config.xcconfig */,
+				1E4986832584A86F0071E00E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1EF968F8259617C5000D7BC5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1EF968FA259617DD000D7BC5 /* Model */,
+				1EF968F9259617D0000D7BC5 /* API */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1EF968F9259617D0000D7BC5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1EF968FD25961932000D7BC5 /* RestClient.swift */,
+				1EF9690225961986000D7BC5 /* AtlastefemAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1EF968FA259617DD000D7BC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9691525967862000D7BC5 /* Session.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EF968FB259618E3000D7BC5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9693625969AC4000D7BC5 /* Use Cases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1EF968FC2596190C000D7BC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EF969112596632A000D7BC5 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EF969112596632A000D7BC5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9690C2596547E000D7BC5 /* HomeViewViewModel.swift */,
+				1E49867C2584A86D0071E00E /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1EF9693625969AC4000D7BC5 /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Use Cases";
 			sourceTree = "<group>";
 		};
 		362CE17F5AD83B80C5F8969F /* Pods */ = {
@@ -425,7 +514,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E49867D2584A86D0071E00E /* ContentView.swift in Sources */,
+				1EF9691625967862000D7BC5 /* Session.swift in Sources */,
+				1EF9690825961F89000D7BC5 /* Constants.swift in Sources */,
+				1E49867D2584A86D0071E00E /* HomeView.swift in Sources */,
+				1EF9690D2596547E000D7BC5 /* HomeViewViewModel.swift in Sources */,
+				1EF968FE25961932000D7BC5 /* RestClient.swift in Sources */,
+				1EF9690325961986000D7BC5 /* AtlastefemAPI.swift in Sources */,
 				1E49867B2584A86D0071E00E /* AtlastefemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +558,7 @@
 /* Begin XCBuildConfiguration section */
 		1E49869A2584A8700071E00E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF9691D25967EB7000D7BC5 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -525,6 +620,7 @@
 		};
 		1E49869B2584A8700071E00E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF9691D25967EB7000D7BC5 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -588,7 +684,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Atlastefem/Preview Content\"";
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Atlastefem/Info.plist;
+				INFOPLIST_FILE = Atlastefem/Application/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -611,7 +707,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Atlastefem/Preview Content\"";
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Atlastefem/Info.plist;
+				INFOPLIST_FILE = Atlastefem/Application/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -632,7 +728,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
-				INFOPLIST_FILE = AtlastefemTests/Info.plist;
+				INFOPLIST_FILE = Atlastefem/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -655,7 +751,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
-				INFOPLIST_FILE = AtlastefemTests/Info.plist;
+				INFOPLIST_FILE = Atlastefem/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -677,7 +773,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
-				INFOPLIST_FILE = AtlastefemUITests/Info.plist;
+				INFOPLIST_FILE = Atlastefem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -698,7 +794,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
-				INFOPLIST_FILE = AtlastefemUITests/Info.plist;
+				INFOPLIST_FILE = Atlastefem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
